@@ -11,9 +11,8 @@ This quick-start project template combines Phaser 3 with [TypeScript](https://ww
 | Command | Description |
 |---------|-------------|
 | `yarn install` | Install project dependencies |
-| `yarn run watch` | Build project and open web server running project, watching for changes |
-| `yarn run dev` | Builds project and open web server, but do not watch for changes |
-| `yarn run build` | Builds code bundle with production settings (minification, no source maps, etc..) |
+| `yarn start` | Build project and open web server running project, watching for changes |
+| `yarn build` | Builds code bundle with production settings (minification, no source maps, etc..) |
 
 ## Writing Code
 
