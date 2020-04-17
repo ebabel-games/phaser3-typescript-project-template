@@ -1,0 +1,18 @@
+{
+  // "eslint.autoFixOnSave": true, // has been deprecated, use editor.codeActionsOnSave instead
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
+  "editor.codeActionsOnSaveTimeout": 1200,
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+  ],
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+}
